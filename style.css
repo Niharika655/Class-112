@@ -1,0 +1,68 @@
+body {
+    font-family: 'Special Elite', cursive;
+    background: pink;
+}
+
+.headerDiv {
+    background: fuchsia;
+    color: gainsboro;
+}
+
+.headerDiv img {
+    width: 100px;
+}
+
+.mainDiv {
+    background: hotpink;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+
+.mainDiv label {
+    background: tomato;
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px black;
+}
+
+#camera,
+#result {
+    border: 3px solid white;
+    width: 310px;
+    box-shadow: 5px 5px 18px black;
+    height: 300px;
+}
+
+.mainDiv button {
+    width: 310px;
+    font-size: 16px;
+    box-shadow: 5px 5px 18px black;
+    border: 3px solid white;
+}
+
+.footerDiv {
+    margin-bottom: 50px;
+}
+
+.footerDiv h4 {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 18px black;
+}
+
+.footerDiv img {
+    width: 70px;
+}
+
+.footer {
+    position: fixed;
+    background: fuchsia;
+    color: gainsboro;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+}
